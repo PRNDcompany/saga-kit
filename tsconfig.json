@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "strict": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"]
+}
